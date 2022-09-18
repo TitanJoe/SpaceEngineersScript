@@ -29,9 +29,9 @@ public void Main(){
 
 //"Get BaseBatteries MaximumStoredPower"
     //Number of batteries
-    int BaseBatteriesNumber = 2
+    int BaseBatteriesNumber = 2;
     //Caculate MaximumStoredPower of BaseBatteriesNumber
-    float BaseBatteriesMaximumPower = BaseBatteriesNumber *3
+    float BaseBatteriesMaximumPower = BaseBatteriesNumber *3;
 
 //Get BaseBatteries CurrentStoredPower
     //Returns a float betweeen 0 and BaseBatteriesMaximumPower
@@ -42,7 +42,7 @@ public void Main(){
     //Divide BaseBatteriesCurrentPower by BaseBatteriesMaximumPower to get a percent.
     float BaseBatteriesPercentFloat = BaseBatteriesCurrentPower / BaseBatteriesMaximumPower;
     //Move the Decimal point 2 places to get a integer between 0 and 100
-    float BaseBatteriesPercentMovedDecPoint = BaseBatteriesPercent * 100;
+    float BaseBatteriesPercentMovedDecPoint = BaseBatteriesPercentFloat * 100;
     //Convert BaseBatteriesPercentMovedDecPoint to an integer
     int BaseBatteriesPercent = (int)BaseBatteriesPercentMovedDecPoint;
 
