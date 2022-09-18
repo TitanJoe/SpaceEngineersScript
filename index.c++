@@ -37,7 +37,6 @@ public void Main(){
 //"Get BaseBatteryChargeState" function
     //It is hidden by default but is shown if BaseBatteries drops below 99%
     string BaseBatteriesChargeState = "";
-    //If battery 
     if (BaseBatteriesPercent < 99) {
         BaseBatteriesChargeState =
             "\nBaseBatteryTop is "
